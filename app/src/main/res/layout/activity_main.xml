@@ -102,6 +102,70 @@
                 android:textSize="18sp" />
         </TableRow>
 
+        <TableRow
+            android:id="@+id/mx_row"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/ma_title"
+                android:layout_weight="1"
+                android:text="mx"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mx_prob"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/my_row"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/ml_title"
+                android:layout_weight="1"
+                android:text="my"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/my_prob"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/mz_row"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/mg_title"
+                android:layout_weight="1"
+                android:text="mz"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mz_prob"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+        </TableRow>
+
+
 
         <TableRow
             android:id="@+id/gx_row"
